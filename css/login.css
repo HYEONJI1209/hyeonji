@@ -1,0 +1,80 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-right: 8px;
+    margin-top: 5%;
+}
+
+.topic {
+    font-size: 35px;
+}
+
+.ShortFrame {
+    width: 436px;
+    height: 65px;
+    background-color: #EFEEEE;
+    border-radius: 3px;
+    border: 1px solid #EFEEEE;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.id {
+    margin-top: 50px;
+    width: 401px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #E37272;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+
+}
+
+span {
+    display: flex;
+    margin-top: 47px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sub_msg {
+    font-size: 15px;
+}
+
+
+/*눈*/
+.eyes {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 2px;
+    height: 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
