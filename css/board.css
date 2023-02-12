@@ -1,0 +1,63 @@
+/*notice board*/
+
+
+.notice-board{
+    display: flex;
+    flex-direction: column;
+    padding-right: 8px;
+    
+    align-items: center;
+}
+.notice-board>button{
+    position: relative;
+    left: 57vh;
+    bottom: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.notice-board>div{
+    
+    width: 60vw;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid rgba(130, 130, 130, 1); 
+}
+#board-cover{
+    background-color: #eb8b8b;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+/*topic logo*/
+.topic-logo{
+    display: flex;
+    justify-content: center;
+    padding-right: 8px;
+}
+#topic{
+    position: relative;
+    top: 3.2rem;
+}
+#search{
+display: flex;
+justify-content: center;
+padding: 10px;;
+padding-right: 8px;
+
+}
+#search input{
+    width: 40vw;
+    height: 31px;
+    margin-right: 2px;
+    border-radius: 6px;
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+}
+#search button{
+    
+    border-radius: 6px;
+    border:none;
+    cursor: pointer;
+}
+
