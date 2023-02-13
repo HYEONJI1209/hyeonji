@@ -1,0 +1,104 @@
+/*Group*/
+.screen-comment{
+    display: flex;
+    justify-content: center;
+
+}
+.screen{
+    width: 64vw;
+    height: 90vh;
+    background-color: white;
+    margin-right: 24px;
+    border-radius: 8px;
+    
+}
+.screen div{
+    width: 59vw;
+    height: 85vh;
+    display: block;
+    margin:auto;
+    margin-top:22px;
+    background-color: rgb(202, 197, 197);
+    z-index:3
+}
+
+.word{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: px;
+    width: 25vw;
+    height:90vh;
+    background-color: white;
+    align-items: center;
+}
+.word1{
+    display:table;
+    position: relative;
+    top:31px;
+    
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 15px;
+    text-align: center;
+    width: 20vw;
+    height: 5vh;
+}
+.word1 h1{
+    display:table-cell;
+    vertical-align: middle;
+    font-size:12px;
+}
+/*
+.word2{
+    position: relative;
+    top: 75vh;
+   
+    
+}
+.word2 button{
+    width: 3.5vw;
+    height: 6vh;
+    border:none;
+    cursor: pointer;
+}
+.word2 input{
+    width: 17vw;
+    height: 6vh;   
+    background-color: rgba(238, 237, 237, 1);
+    border:none;
+}
+*/
+
+#chatBot{
+    resize:none; width:21vw; height: 60vh;
+    border:none;
+    background-color: #ffd9d9;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chat{
+    display: flex;
+    position: relative;
+    top: 5vh;
+    border-radius: 7px;
+}
+#chatUser{
+    resize: none;
+    width: 17vw;
+    height: 6vh;   
+    background-color: rgba(238, 237, 237, 1);
+    border:none;
+    margin-right: 2px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#chatPost   {
+    resize: none;
+    width: 3.5vw;
+    height: 6vh;
+    border:none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+}
