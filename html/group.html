@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/group.css">
+
+    <title>Schooler</title>
+</head>
+<body id="body-pd">
+    <style>
+        body{
+            background-color:rgba(238, 237, 237, 1);
+        }
+    </style>
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav__brand">
+                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                    <a href="#" class="nav__logo">Menu</a>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link active">
+                        <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">홈으로 가기</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">프로필</span>
+                    </a>
+
+                    <a href="group.html" class="nav__link collapse">
+                        <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">메신저</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="calendar-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">시간표</span>
+                    </a>
+
+                    <a href="board.html" class="nav__link collapse">
+                        <ion-icon name="clipboard-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">게시판</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="pizza-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">학식</span>
+                    </a>
+                </div>
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav_name">로그아웃</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+    </body>
+    <!--
+    <div class="topic-logo">
+        <div>
+           <img src="assets/images/icons8-학교-100 17.png">
+        </div>
+        <div id="topic">
+            <h1>GROUP</h1>
+        </div>   
+    </div>
+    -->
+
+    <div class="screen-comment">
+        <div class="screen">
+            <div>
+                
+            </div>
+
+        </div>
+        <div class="word">
+            <div class="word1">
+                <h1>
+                    이 메신저는 그룹 사람들에게만 허용됩니다.<br>
+                        통화가 끝나면 이 메시지는 사라집니다.
+                </h1>
+
+            </div>
+            <br><br><br>
+
+            <textarea class="form-control" id="chatBot"  name="chatBot" readonly="readonly">maneger : 안녕!! </textarea>
+            <div class="chat">
+            <p></p><textarea class="form-control" id="chatUser"  name="chatUser"></textarea>
+            <p></p><input class="chatsend" id="chatPost" type="button" value="보내기" />
+            </div>
+            <!--
+            <div class="word2">
+                <input type="text" name="text" placeholder="채팅을 입력하세요.">
+                <button>보내기</button>
+            </div>
+            --> 
+            
+
+        </div>
+    </div>
+   
+
+
+
+
+
+
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- JS -->
+    <script src="../js/Navbar.js"></script>
+    <script src="../js/chat.js"></script>
+
+
+
+     
+</body>
+</html>
