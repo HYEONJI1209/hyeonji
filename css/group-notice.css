@@ -1,0 +1,55 @@
+.topic-logo{
+    display: flex;
+    justify-content: center;
+    padding-right: 8px;
+}
+#topic{
+    position: relative;
+    top: 3.2rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+#name{
+    display:flex ;
+    justify-content: center;
+
+}
+.message{
+    position: relative;
+    right: 5vw;
+    display: flex;
+    justify-content: right;
+   
+}
+
+.message input{
+    border:none;
+    background-color: #EFEEEE;
+    height: 3.5vh;
+    width: 12vw;
+
+}
+
+.message img{
+    position: relative;
+    right: 1.5vw;
+    cursor: pointer;
+}
+
+.main-message{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 60vh;
+    background-color: #EFEEEE;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
