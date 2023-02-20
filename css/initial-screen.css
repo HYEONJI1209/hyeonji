@@ -1,0 +1,49 @@
+/*topic logo*/
+.topic-logo{
+    position: relative;
+    right: 4vw;
+    display: flex;
+    justify-content: center;
+    padding-right: 8px;
+}
+.topic-logo img{
+    width:30vh;
+}
+
+#topic{
+    position: relative;
+    top:1rem;   
+    
+}
+#topic h1{
+    font-size: 18vh;
+}
+
+
+body{
+    background-color: rgba(255, 245, 245, 1);
+}
+
+/*initial-button*/
+.initial-button{
+    position: relative;
+    top: 15vh;
+    right: 3vw;
+    
+    display: flex;
+    justify-content: center;    
+}
+.initial-button button{
+    margin: 1vh;
+    width: 50vh;    
+    height: 14vh;
+    border: solid black;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.initial-button button p{
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
