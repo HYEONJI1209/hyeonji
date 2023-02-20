@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/Navbar.css">
+
+
+    <title>Schooler</title>
+</head>
+<body id="body-pd">
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav__brand">
+                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                    <a href="#" class="nav__logo">Menu</a>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link active">
+                        <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">홈으로 가기</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">프로필</span>
+                    </a>
+
+                    <div href="#" class="nav__link collapse">
+                        <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">메신저</span>
+                    </div>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="calendar-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">시간표</span>
+                    </a>
+
+                    <div href="#" class="nav__link collapse">
+                        <ion-icon name="clipboard-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">게시판</span>
+                    </div>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="pizza-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">학식</span>
+                    </a>
+                </div>
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav_name">로그아웃</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <img class="table-topic" src="../images/table-logo.svg">
+    <table class="table">
+        <tr class="day">
+        <th></th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+        <th>토</th>
+        <th>일</th>
+        </tr>
+        <tr> <!--첫째줄-->
+            <td class="time">09:00~10:00</td>
+            <td rowspan="3" ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr > <!--둘째줄-->
+            <td class="time">10:00~11:00</td>
+            <td></td>
+            <td></td>
+            <td rowspan="2" ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr > <!--셋-->
+            <td class="time">11:00~12:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr > <!--넷-->
+            <td class="time">12:00~13:00</td>
+            <td></td>
+            <td rowspan="3" ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr > <!--다섯-->
+            <td class="time">13:00~14:00</td>
+            <td></td>
+            <td rowspan="2" ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr >    <!--여섯-->
+            <td class="time">14:00~15:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr ><!--일곱-->
+            <td class="time">15:00~16:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr> <!--일곱-->
+            <td class="time">16:00~17:00</td>
+            <td rowspan="2" ></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr> <!--여덟-->
+            <td class="time"> 17:00~18:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- JS -->
+    <script src="../js/Navbar.js"></script>
+</body>
+</html>

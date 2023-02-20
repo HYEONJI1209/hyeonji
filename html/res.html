@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/res.css">
+    <script language="javascript" type="text/javascript"></script>
+</head>
+<body>
+    <img class="res-topic" src="../images/res-logo.svg">
+    <div class="all">
+    <form>
+        <span>*아이디</span>
+        <div class="test">
+        <input type="text" id="id" class="ShortFrame" name="id" placeholder="  아이디 필수">
+        <input class="bot_1" type="button" onclick="alert('사용 가능한 아이디 입니다!')" value="중복확인"> <br>
+        <small class="Word">5~11자리 사이의 영문자로 작성해주세요</small></div>
+
+        <span>*비밀번호</span>
+        <div class="test">
+        <input type="password" id="ps"class="Frame" name="ps" placeholder="  비밀번호 필수"><br>
+        <small class="Word">대문자, 특수문자, 숫자를 포함한 7자리 이상의 비밀번호를 만들어주세요</small>
+        </div>
+        <span>*비밀번호 확인</span><br>
+        <input type="password" class="an_Frame" name="rps" placeholder="  비밀번호 확인 필수"><br>
+ 
+        <span>*이름</span><br>
+        <input type="text"  id="name" class="an_Frame" name="name" value="" placeholder="  성명 필수"><br>
+
+        <span>*이메일</span><br>
+        <input type="email" id="email"class="an_Frame" name="email" value="" placeholder="  이메일 필수"><br>
+
+        <span>*학교인증</span><br>
+        <input type="text" class="an_Frame" name="school" value="" placeholder="  학교인증 필수"><br>
+
+        <span>*생년월일</span><br>
+        <input type="text" class="an_Frame" name="birth" value="" placeholder="  -를 빼고 입력해주세요"><br>
+
+        <span>*주소</span><br>
+        <div class="test">
+        <input type="text" class="ShortFrame" name="address" value="">
+        <input class="bot_2" type="button" onclick="alert('')" value="우편번호검색">
+        </div>
+        <input type="text" class="an_Frame" name="address" value="" placeholder="  상세주소"><br>
+        <input type="text" class="an_Frame" name="address" value="" placeholder="  참고사항"><br>
+        <input type="checkbox" name="check">
+        약관에 동의하십니까?<br><br>
+        <input class="bot_3"  type="button" onclick="alert('땡')" value="회원가입">
+    </form>
+    </div>
+</body>
+</html>
