@@ -1,0 +1,80 @@
+.res-topic{
+    width: 340px;
+    height: 220px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40%;
+
+}
+.all{
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+
+
+}
+.ShortFrame{
+    width: 270px;
+    height: 40px;
+    background-color: #EFEEEE;
+    border-radius: 3px;
+    border: 1px solid #EFEEEE;
+
+}
+.Frame{
+    width: 270px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #EFEEEE;
+    background-color: #EFEEEE;
+
+}
+.Word{
+    font-size: 7px;
+    font-weight: bold;
+}
+.test{
+    margin-bottom: 1%;
+}
+.an_Frame{
+    width: 270px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #EFEEEE;
+    background-color: #EFEEEE;
+    margin-bottom: 1%;
+}
+span{
+    font-size: 16px;
+}
+.bot_1{  /**버튼**/
+    background-color: #c8c8c8;
+    border-radius: 5px;
+    width: 76px;
+    height: 31px;
+    font-size: 13px;
+    border: 1px;
+    color: #000000;
+
+}
+.bot_2{  /**버튼**/
+    background-color: #c8c8c8;
+    border-radius: 5px;
+    width: 76px;
+    height: 31px;
+    font-size: 10px;
+    border: 1px;
+}
+.bot_3{  /**버튼**/
+    background-color: #e37272;
+    border-radius: 5px;
+    width: 279px;
+    height: 29px;
+    font-size: 16px;
+    border: 1px solid #E37272;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
