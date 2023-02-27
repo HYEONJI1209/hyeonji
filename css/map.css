@@ -12,6 +12,9 @@
 
 
 /*map*/
+body, html{
+    background-color: #EFEEEE;
+}
 .map iframe{
     width: 65vw;
     height: 65vh;
@@ -36,7 +39,7 @@
 
 .message input{
     border:none;
-    background-color: #EFEEEE;
+    background-color: #c1c0c0;
     height: 3.5vh;
     width: 12vw;
 
