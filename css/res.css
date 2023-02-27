@@ -1,3 +1,6 @@
+body{
+    background-color: #E1E1E1;
+}
 .res-topic{
     width: 340px;
     height: 220px;
@@ -17,17 +20,17 @@
 .ShortFrame{
     width: 270px;
     height: 40px;
-    background-color: #EFEEEE;
-    border-radius: 3px;
-    border: 1px solid #EFEEEE;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #BBBBBB;
 
 }
 .Frame{
     width: 270px;
     height: 40px;
-    border-radius: 3px;
-    border: 1px solid #EFEEEE;
-    background-color: #EFEEEE;
+    border-radius: 5px;
+    border: 1px solid #BBBBBB;
+    background-color: #FFFFFF;
 
 }
 .Word{
@@ -40,9 +43,9 @@
 .an_Frame{
     width: 270px;
     height: 40px;
-    border-radius: 3px;
-    border: 1px solid #EFEEEE;
-    background-color: #EFEEEE;
+    border-radius: 5px;
+    border: 1px solid #BBBBBB;
+    background-color: #FFFFFF;
     margin-bottom: 1%;
 }
 span{
