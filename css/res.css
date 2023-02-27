@@ -1,41 +1,45 @@
-body{
-    background-color: #E1E1E1;
-}
 .res-topic{
     width: 340px;
     height: 220px;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-left: 40%;
+}
 
+.res-topic{
+    width: 340px;
+    height: 220px;
+    margin-bottom: 5px;
 }
 .all{
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40%;
-
-
+}
+span{
+    font-size: 15px;
+    font-weight: bold;
 }
 .ShortFrame{
     width: 270px;
     height: 40px;
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    border: 1px solid #BBBBBB;
+    background-color: #EFEEEE;
+    border-radius: 3px;
+    border: 1px solid #EFEEEE;
 
 }
 .Frame{
     width: 270px;
     height: 40px;
-    border-radius: 5px;
-    border: 1px solid #BBBBBB;
-    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #EFEEEE;
+    background-color: #EFEEEE;
 
 }
 .Word{
     font-size: 7px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .test{
     margin-bottom: 1%;
@@ -43,41 +47,43 @@ body{
 .an_Frame{
     width: 270px;
     height: 40px;
-    border-radius: 5px;
-    border: 1px solid #BBBBBB;
-    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #EFEEEE;
+    background-color: #EFEEEE;
     margin-bottom: 1%;
 }
-span{
-    font-size: 16px;
-}
-.bot_1{  /**버튼**/
+.btn_id{  /**버튼**/
     background-color: #c8c8c8;
     border-radius: 5px;
-    width: 76px;
-    height: 31px;
+    width: 100px;
+    height: 45px;
     font-size: 13px;
     border: 1px;
     color: #000000;
-
 }
-.bot_2{  /**버튼**/
-    background-color: #c8c8c8;
-    border-radius: 5px;
-    width: 76px;
-    height: 31px;
-    font-size: 10px;
-    border: 1px;
+.submit_res{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 25px;
+    margin-top: 70px;
 }
-.bot_3{  /**버튼**/
+.btn_res_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_res{  /**버튼**/
     background-color: #e37272;
     border-radius: 5px;
-    width: 279px;
-    height: 29px;
+    width: 250px;
+    height: 40px;
     font-size: 16px;
     border: 1px solid #E37272;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 

@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="../css/map.css">
     <link rel="stylesheet" href="../css/Navbar.css">
-    <link rel="stylesheet" href="../css/group.css">
 
     <title>Schooler</title>
 </head>
 <body id="body-pd">
-    <style>
-        body{
-            background-color:rgba(238, 237, 237, 1);
-        }
-    </style>
+    <div class="message">
+        <input type="text" class="ShortFrame" name="검색" placeholder="검색" >
+        <img src="../images/돋보기.svg">
+    </div>
     <div class="l-navbar" id="navbar">
         <nav class="nav">
             <div>
@@ -60,73 +59,25 @@
             </div>
         </nav>
     </div>
-    </body>
-    <!--
     <div class="topic-logo">
         <div>
-           <img src="assets/images/icons8-학교-100 17.png">
+           <img src="../images/icons8-학교-100 17.png">
         </div>
         <div id="topic">
-            <h1>GROUP</h1>
+            <h1>Schooler Map</h1>
         </div>   
     </div>
-    -->
 
-    <div class="screen-comment">
-        <div class="screen">
-            <div>
-                <div class="circle">
-                    <div><p>마이크</p></div>
-                    <div><p>카메라</p></div>
-                    <div><p>공유</p></div>
-                </div>
-            </div>
-
-        </div>
-        <div class="word">
-            <div class="word1">
-                <h1>
-                    이 메신저는 그룹 사람들에게만 허용됩니다.<br>
-                        통화가 끝나면 이 메시지는 사라집니다.
-                </h1>
-
-            </div>
-            <br><br><br>
-
-            <textarea class="form-control" id="chatBot"  name="chatBot" readonly="readonly">maneger : 안녕!! </textarea>
-            <div class="chat">
-            <p></p><textarea class="form-control" id="chatUser"  name="chatUser"></textarea>
-            <p></p><input class="chatsend" id="chatPost" type="button" value="보내기" />
-            </div>
-            <!--
-            <div class="word2">
-                <input type="text" name="text" placeholder="채팅을 입력하세요.">
-                <button>보내기</button>
-            </div>
-            --> 
-            
-
-        </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.8222822347543!2d127.92774020394435!3d37.370381799566914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356374e776482d4b%3A0x6feb1bc9c1500092!2z7IOB7KeA64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1676899531067!5m2!1sko!2skr"  ></iframe>
     </div>
-   
-
-
-
     
-
-
-
-
-
-
     <!-- IONICONS -->
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
     <!-- JS -->
     <script src="../js/Navbar.js"></script>
-    <script src="../js/chat.js"></script>
 
 
-
-     
 </body>
 </html>
+
