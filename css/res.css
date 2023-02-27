@@ -1,5 +1,6 @@
-.res_topic_logo{
-    display: flex;
+.res-topic{
+    width: 340px;
+    height: 220px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -20,29 +21,20 @@ span{
     font-weight: bold;
 }
 .ShortFrame{
-    width: 250px;
-    height: 45px;
+    width: 270px;
+    height: 40px;
     background-color: #EFEEEE;
     border-radius: 3px;
     border: 1px solid #EFEEEE;
-    margin-top: 5px;
-}
-.ShortFrame_add{
-    width: 250px;
-    height: 45px;
-    background-color: #EFEEEE;
-    border-radius: 3px;
-    border: 1px solid #EFEEEE;
-    margin-bottom: 15px;
-    margin-top: 5px;
+
 }
 .Frame{
-    width: 360px;
-    height: 45px;
+    width: 270px;
+    height: 40px;
     border-radius: 3px;
     border: 1px solid #EFEEEE;
     background-color: #EFEEEE;
-    margin-top: 5px;
+
 }
 .Word{
     font-size: 7px;
@@ -53,13 +45,12 @@ span{
     margin-bottom: 1%;
 }
 .an_Frame{
-    width: 360px;
-    height: 45px;
+    width: 270px;
+    height: 40px;
     border-radius: 3px;
     border: 1px solid #EFEEEE;
     background-color: #EFEEEE;
-    margin-bottom: 15px;
-    margin-top: 5px;
+    margin-bottom: 1%;
 }
 .btn_id{  /**버튼**/
     background-color: #c8c8c8;

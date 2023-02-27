@@ -1,19 +1,16 @@
 /*시간표*/
-
-
 .table{
     align-items: center;
     text-align: center;
     border: 0px solid gray;
     justify-content: center;
     display: flex   ;
-    margin-top: 2%;
 }   
 
 tr,td,th{
     border: 1px solid gray;
-    width: 74px;
-    height: 45px;
+    width: 100px;
+    height: 70px;
 }
 .day{
     font-size: 14px;
@@ -22,11 +19,11 @@ tr,td,th{
     font-size: 10px;
 }
 .table-topic{
-    width: 271px;
-    height: 97px;
+    width: 350px;
+    height: 200px;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-top: 3%;
     display: flex;
+    margin-left: 40%;
 }
