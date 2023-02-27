@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,11 @@
 
     <title>Schooler</title>
 </head>
+
 <body id="body-pd">
     <style>
-        body{
-            background-color:rgba(238, 237, 237, 1);
+        body {
+            background-color: rgba(238, 237, 237, 1);
         }
     </style>
     <div class="l-navbar" id="navbar">
@@ -60,73 +62,82 @@
             </div>
         </nav>
     </div>
-    </body>
-    <!--
+</body>
+
     <div class="topic-logo">
         <div>
-           <img src="assets/images/icons8-학교-100 17.png">
+           <img src="../images/icons8-학교-100 17.png" style="width: 100px; height: 100px;">
         </div>
         <div id="topic">
             <h1>GROUP</h1>
         </div>   
     </div>
-    -->
+   
 
-    <div class="screen-comment">
-        <div class="screen">
-            <div>
-                <div class="circle">
-                    <div><p>마이크</p></div>
-                    <div><p>카메라</p></div>
-                    <div><p>공유</p></div>
+<div class="screen-comment">
+    <div class="screen">
+            <!-- <div class="circle">
+                <div>
+                    <img src="../images/groupMike.png">
+                </div>  
+                <div>
+                    <img src="../images/groupCamera.png">
                 </div>
-            </div>
+                <div>
+                    <img src="../images/groupShare.png">
+                </div>
+            </div> -->
+
+    </div>
+    <div class="word">
+        <div class="word1">
+            <p>
+                이 메신저는 그룹 사람들에게만 허용됩니다.<br>
+                통화가 끝나면 이 메시지는 사라집니다.
+            </p>
 
         </div>
-        <div class="word">
-            <div class="word1">
-                <h1>
-                    이 메신저는 그룹 사람들에게만 허용됩니다.<br>
-                        통화가 끝나면 이 메시지는 사라집니다.
-                </h1>
 
-            </div>
-            <br><br><br>
+        <textarea class="form-control" id="chatBot" name="chatBot" readonly="readonly">maneger : 안녕!!
+            </textarea>
 
-            <textarea class="form-control" id="chatBot"  name="chatBot" readonly="readonly">maneger : 안녕!! </textarea>
-            <div class="chat">
-            <p></p><textarea class="form-control" id="chatUser"  name="chatUser"></textarea>
-            <p></p><input class="chatsend" id="chatPost" type="button" value="보내기" />
-            </div>
-            <!--
+        <div class="chat">
+            <p></p>
+            <textarea class="form-control" id="chatUser" name="chatUser">
+            </textarea>
+            <p></p>
+            <input class="chatsend" id="chatPost" type="button" value="보내기" />
+        </div>
+        <!--
             <div class="word2">
                 <input type="text" name="text" placeholder="채팅을 입력하세요.">
                 <button>보내기</button>
             </div>
-            --> 
-            
+            -->
 
-        </div>
+
     </div>
-   
-
-
-
-    
+</div>
 
 
 
 
 
 
-    <!-- IONICONS -->
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-    <!-- JS -->
-    <script src="../js/Navbar.js"></script>
-    <script src="../js/chat.js"></script>
 
 
 
-     
+
+
+<!-- IONICONS -->
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+<!-- JS -->
+<script src="../js/Navbar.js"></script>
+<script src="../js/chat.js"></script>
+
+
+
+
 </body>
+
 </html>
