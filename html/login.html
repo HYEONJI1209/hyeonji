@@ -9,35 +9,31 @@
 
 </head>
 <body>
-    
+    <div>
     <div class="topic-logo">
         <div>
            <img src="../images/icons8-학교-100 17.png">
-        </div>
+        </div><br/>
         <div id="topic">
-            <h1>로그인</h1>
+            <h1 style="font-size: 50px;">Schooler</h1>
         </div>   
     </div>
-
-    <div class="login">
+    <div class="topic-logoName">
+        <p>로그인</p>
+    </div>
+</div>
+    <div class="login" onload="logForm.id.focus()">
         
-        <form>
+        <form name="logForm" method="post">
             <span><b>*아이디</b></span>    
-            
-            <input type="text" id="id" class="ShortFrame" name="아이디" placeholder="아이디">
-            
-        </form>
-        
-        <form>
+            <input type="text" id="id" class="loginFrame" name="id" placeholder="아이디" style="margin-bottom: 15px;">
             <span><b>*비밀번호</b></span>
-            
-            <input type="password" id="pw" class="ShortFrame" name="비밀번호" placeholder="비밀번호">
-            
+            <input type="password" id="pw" class="loginFrame" name="pw" placeholder="비밀번호">
         </form>
         <div id=result-area></div>
-        <input type="button" id="BTN" value="로그인" class="id" style="border:none" >
-        <span><a href="new"><b>계정이 없으신가요? 회원가입</b></a></span>
-        <span><a href="findid">아이디 찾기</a>/<a href="findpass">비밀번호 찾기</a></span>
+        <button id="BTN" class="login_btn" onclick="loginCheck()">로그인</button>
+        <span class="login_ask1"><a href="new"><b>계정이 없으신가요? 회원가입</b></a></span>
+        <span class="login_ask2"><a href="findid">아이디 찾기</a>/<a href="findpass">비밀번호 찾기</a></span>
     </div>
     <script src="../js/login.js"></script>
 </body>
