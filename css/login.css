@@ -1,81 +1,68 @@
-.logo {
-    display: flex;
-    justify-content: center;
-    padding-right: 8px;
-    margin-top: 5%;
-}
-
+/*로고*/
 .topic-logo{
     display: flex;
     justify-content: center;
-    padding-right: 8px;
+    align-items: center;
+    margin-top: 140px;
 }
-#topic{
-    position: relative;
-    top: 3.2rem;
+.topic-logoName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
-
-.ShortFrame {
-    width: 28vw;
-    height: 7vh;
-    background-color: #EFEEEE;
-    border-radius: 3px;
-    border: 1px solid #EFEEEE;
-}
-
 .login {
     display: flex;
     flex-direction: column;
-
     align-items: center;
-
 }
-
 .login form {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-.id {
+.loginFrame {
+    margin-top: 5px;
+    width: 400px;
+    height: 45px;
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #BBBBBB;
+}
+.login_btn {
     margin-top: 50px;
-    width: 28vw;
-    height: 8vh;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
     background-color: #E37272;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-
+    border: none;
 }
-
-form {
-    display: flex;
-    justify-content: center;
-
-}
-
-span {
-    display: flex;
-    margin-top: 47px;
-    font-weight: 300%;
-
-}
-
-
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.sub_msg {
+.login_ask1{
+    margin-top: 45px;
     font-size: 15px;
+    margin-bottom: 20px;
 }
- 
+.login_ask1 a:link {
+    color : black;
+  }
+  .login_ask1 a{
+    text-decoration: none;
+  }
 
-
-
+  .login_ask2{
+    font-size: 12px;
+}
+.login_ask2 a:link {
+    color : black;
+  }
+  .login_ask2 a{
+    text-decoration: none;
+  }
 /*눈*/
 .eyes {
     position: absolute;
