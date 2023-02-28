@@ -1,28 +1,33 @@
 /*로고*/
-.topic-logo{
+.topic-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 140px;
 }
-.topic-logoName{
+
+.topic-logoName {
+    margin-top: -20px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
+
 .login {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .login form {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .loginFrame {
     margin-top: 5px;
     width: 400px;
@@ -31,6 +36,7 @@
     border-radius: 3px;
     border: 1px solid #BBBBBB;
 }
+
 .login_btn {
     margin-top: 50px;
     width: 250px;
@@ -42,27 +48,41 @@
     cursor: pointer;
     border: none;
 }
-.login_ask1{
+
+.login_ask1 {
     margin-top: 45px;
     font-size: 15px;
     margin-bottom: 20px;
 }
-.login_ask1 a:link {
-    color : black;
-  }
-  .login_ask1 a{
-    text-decoration: none;
-  }
 
-  .login_ask2{
+.login_ask1 a:link {
+    color: black;
+}
+
+.login_ask1 a:visited {
+    color: black;
+}
+
+.login_ask1 a {
+    text-decoration: none;
+}
+
+.login_ask2 {
     font-size: 12px;
 }
+
 .login_ask2 a:link {
-    color : black;
-  }
-  .login_ask2 a{
+    color: black;
+}
+
+.login_ask2 a:visited {
+    color: black;
+}
+
+.login_ask2 a {
     text-decoration: none;
-  }
+}
+
 /*눈*/
 .eyes {
     position: absolute;
