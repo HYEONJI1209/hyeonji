@@ -11,18 +11,14 @@ const loginCheck=()=>{
         logForm.pw.focus(); //포커스 커서 옮기기
         return false; //정상종료
     }
-    logForm.submit();
+    location.href="Index.html";  //둘다 입력되면 Index.html로
 }
 
 
-
-
-let loginid = document.getElementById("id");
-let loginpw = document.getElementById("pw");
-let login = document.getElementById("BTN");
-let resultArea=document.getElementById("result-area");
-
-
+// let loginid = document.getElementById("id");
+// let loginpw = document.getElementById("pw");
+// let login = document.getElementById("BTN");
+// let resultArea=document.getElementById("result-area");
 
 // login.addEventListener('click',color);
 // loginid.addEventListener("focus",replay);
@@ -34,11 +30,10 @@ let resultArea=document.getElementById("result-area");
 //     }else{
 //         login.disabled = true;
 //         resultArea.textContent="다시입력해주세요"
-        
 //     }
 // }
 
-function replay(){
-    login.disabled=false;
-    resultArea.textContent=""
-}
+// function replay(){
+//     login.disabled=false;
+//     resultArea.textContent=""
+// }
