@@ -1,7 +1,8 @@
-*{
+* {
     color: #40403E;
 }
-.Main-logo{
+
+.Main-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,7 @@
 
 /*-----------------------------*/
 
-.notification{
+.notification {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +18,7 @@
 }
 
 /*Main-학과공지*/
-.Depart{
+.Depart {
     width: 419px;
     height: 278px;
     border-radius: 10px;
@@ -27,29 +28,33 @@
     padding: 25px;
     font-size: 14px;
 }
-.Depart_Note_id{
+
+.Depart_Note_id {
     display: flex;
     margin-left: 50px;
     margin-top: 25px;
 }
-.Depart_Note{
+
+.Depart_Note {
     display: flex;
     margin-left: 50px;
     margin-top: 16px;
 }
-.Depart_Note_ti{
+
+.Depart_Note_ti {
     margin-right: 30px;
     color: white;
     font-size: 13px;
     font-weight: bold;
 }
-.Depart_Note_not{
-    color:white;
+
+.Depart_Note_not {
+    color: white;
     font-size: 11px;
 }
 
 /*Main-시간표*/
-.schedule{
+.schedule {
     width: 419px;
     height: 278px;
     border-radius: 10px;
@@ -58,27 +63,32 @@
     padding: 25px;
     font-size: 14px;
 }
-.schedule_Note_id{
+
+.schedule_Note_id {
     display: flex;
     margin-left: 50px;
     margin-top: 25px;
 }
-.schedule_Note{
+
+.schedule_Note {
     display: flex;
     margin-left: 50px;
     margin-top: 16px;
 }
-.schedule_Note_ti{
+
+.schedule_Note_ti {
     margin-right: 30px;
     color: black;
     font-size: 13px;
     font-weight: bold;
 }
-.schedule_Note_not{
-    color:black;
+
+.schedule_Note_not {
+    color: black;
     font-size: 11px;
 }
-.To_scheluler{
+
+.To_scheluler {
     width: 50px;
     height: 20px;
     font-size: 7px;
@@ -90,9 +100,10 @@
     margin-top: -10px;
     cursor: pointer;
 }
+
 /*---------------------------*/
 
-.two_cation{
+.two_cation {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +111,7 @@
 }
 
 /*학교공지*/
-.Noti{
+.Noti {
     width: 564px;
     height: 278px;
     border-radius: 10px;
@@ -109,43 +120,48 @@
     font-size: 14px;
     margin-right: 60px;
 }
-.Noti_Note_id{
+
+.Noti_Note_id {
     display: flex;
     margin-left: 50px;
     margin-top: 25px;
 }
-.Noti_Note{
+
+.Noti_Note {
     display: flex;
     margin-left: 50px;
     margin-top: 16px;
 }
-.Noti_Note_ti{
+
+.Noti_Note_ti {
     margin-right: 30px;
     color: black;
     font-size: 13px;
     font-weight: bold;
 }
-.Noti_Note_not{
-    color:black;
+
+.Noti_Note_not {
+    color: black;
     font-size: 11px;
 }
 
 /*Main-map*/
-.main_map iframe{
+.main_map iframe {
     width: 246px;
     height: 391px;
     border-radius: 25px;
 }
 
 /*YouTube???*/
-.YouTube-box{
+.YouTube-box {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 47px;
     margin-bottom: 100px;
 }
-.YouTube{
+
+.YouTube {
     width: 875px;
     height: 390px;
     background-color: #ececec;

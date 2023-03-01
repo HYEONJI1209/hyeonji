@@ -1,6 +1,4 @@
 /*notice board*/
-
-
 .notice-board{
     display: flex;
     flex-direction: column;

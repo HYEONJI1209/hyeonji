@@ -1,49 +1,65 @@
 /*topic logo*/
 .topic-logo{
-    position: relative;
-    right: 4vw;
-    display: flex;
-    justify-content: center;
-    padding-right: 8px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   margin-bottom: 0;
+
 }
 .topic-logo img{
-    width: 45vh;
+    width: 210px;
+    height: 207px;
 }
 
-#topic{
+#topic {
     position: relative;
-    top:1rem;   
-    
+    top: 1rem;
+
 }
 #topic h1{
-    font-size: 18vh;
+    font-size: 96px;
 }
 
 
-body{
+body {
     background-color: rgba(255, 245, 245, 1);
 }
 
 /*initial-button*/
 .initial-button{
-    position: relative;
-    top: 15vh;
-    right: 3vw;
     
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    margin-top:63px;    
 }
 .initial-button button{
-    margin: 1vh;
-    width: 50vh;    
-    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 188px;    
+    height: 65px;
     border: solid black;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
 }
+.initial-button a{
+    text-decoration: none;
+    color:black;
+}
+.initial-button> .button-one{
+    margin-right: 55px;
+    border:1px solid black
+}
+
+.initial-button> .button-two{
+    border:1px solid rgba(255, 1, 1, 1);
+
+}
 .initial-button button p{
-    font-size: 4vh;
+    font-size: 36px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }

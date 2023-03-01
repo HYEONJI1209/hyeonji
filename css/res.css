@@ -10,12 +10,14 @@
     margin-bottom: 30px;
 
 }
-.all{
+
+.all {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-span{
+
+span {
     font-size: 15px;
     font-weight: bold;
 }
@@ -48,12 +50,14 @@ span{
     margin-bottom: 5px;
 
 }
-.Word{
+
+.Word {
     font-size: 7px;
     font-weight: bold;
     margin-bottom: 5px;
 }
-.test{
+
+.test {
     margin-bottom: 1%;
 }
 .an_Frame{
