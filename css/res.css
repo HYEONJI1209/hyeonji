@@ -1,4 +1,4 @@
-.res-topic{
+.res-topic {
     width: 340px;
     height: 220px;
     align-items: center;
@@ -6,21 +6,24 @@
     justify-content: center;
 }
 
-.res-topic{
+.res-topic {
     width: 340px;
     height: 220px;
     margin-bottom: 5px;
 }
-.all{
+
+.all {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-span{
+
+span {
     font-size: 15px;
     font-weight: bold;
 }
-.ShortFrame{
+
+.ShortFrame {
     width: 270px;
     height: 40px;
     background-color: #EFEEEE;
@@ -28,7 +31,8 @@ span{
     border: 1px solid #EFEEEE;
 
 }
-.Frame{
+
+.Frame {
     width: 270px;
     height: 40px;
     border-radius: 3px;
@@ -36,15 +40,18 @@ span{
     background-color: #EFEEEE;
 
 }
-.Word{
+
+.Word {
     font-size: 7px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.test{
+
+.test {
     margin-bottom: 1%;
 }
-.an_Frame{
+
+.an_Frame {
     width: 270px;
     height: 40px;
     border-radius: 3px;
@@ -52,7 +59,9 @@ span{
     background-color: #EFEEEE;
     margin-bottom: 1%;
 }
-.btn_id{  /**버튼**/
+
+.btn_id {
+    /**버튼**/
     background-color: #c8c8c8;
     border-radius: 5px;
     width: 100px;
@@ -61,7 +70,8 @@ span{
     border: 1px;
     color: #000000;
 }
-.submit_res{
+
+.submit_res {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,12 +79,15 @@ span{
     margin-bottom: 25px;
     margin-top: 70px;
 }
-.btn_res_button{
+
+.btn_res_button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn_res{  /**버튼**/
+
+.btn_res {
+    /**버튼**/
     background-color: #e37272;
     border-radius: 5px;
     width: 250px;
@@ -85,5 +98,3 @@ span{
     border-radius: 5px;
     margin-bottom: 50px;
 }
-
-

@@ -3,26 +3,27 @@
     justify-content: center;
     padding-right: 8px;
 }
+
 #topic{
     position: relative;
     top: 3.2rem;
 }
+
 .logo{
     display: flex;
     justify-content: center;
-
 }
+
 #name{
     display:flex ;
     justify-content: center;
-
 }
+
 .message{
     position: relative;
     right: 5vw;
     display: flex;
     justify-content: right;
-   
 }
 
 .message input{
@@ -30,7 +31,6 @@
     background-color: #EFEEEE;
     height: 3.5vh;
     width: 12vw;
-
 }
 
 .message img{

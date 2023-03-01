@@ -21,12 +21,14 @@
 }
 
 /* BASE */
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: border-box;
 }
 
 body {
-    
+
     margin: 0;
     padding: 2rem 0 0 6.75rem;
     font-family: var(--body-font);

@@ -1,24 +1,29 @@
 /*시간표*/
-.table{
+.table {
     align-items: center;
     text-align: center;
     border: 0px solid gray;
     justify-content: center;
-    display: flex   ;
-}   
+    display: flex;
+}
 
-tr,td,th{
+tr,
+td,
+th {
     border: 1px solid gray;
     width: 100px;
     height: 70px;
 }
-.day{
+
+.day {
     font-size: 14px;
 }
-.time{
+
+.time {
     font-size: 10px;
 }
-.table-topic{
+
+.table-topic {
     width: 350px;
     height: 200px;
     align-items: center;

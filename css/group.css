@@ -10,7 +10,10 @@
     background-color: white;
     margin-right: 24px;
     border-radius: 8px;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 23924fa8aa98f9504f23796388f12229f84c546e
 }
 .screen div{
     width: 59vw;
@@ -23,6 +26,7 @@
     background-color: rgb(202, 197, 197);
     z-index:3
 }
+<<<<<<< HEAD
 
 .circle div{
     position: relative;
@@ -40,6 +44,15 @@
     font-weight: 1000px;
 }
 .word{
+=======
+.circle div img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+} */
+
+.word {
+>>>>>>> 23924fa8aa98f9504f23796388f12229f84c546e
     display: flex;
     flex-direction: column;
     position: relative;
