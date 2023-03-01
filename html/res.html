@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/res.css">
-    <script language="javascript" type="text/javascript"></script>
+    
 </head>
 
 <body>
@@ -40,6 +40,7 @@
         <input type="text" class="an_Frame" name="birth" value="" placeholder="  -를 빼고 입력해주세요"><br>
 
         <strong><span>* 주소</span></strong><br>
+        <!--
         <div class="test">
         <input type="text" class="ShortFrame_1" name="address" value="" placeholder="  우편번호">
         <input class="bot_2" type="button" onclick="alert('')" value="우편번호 검색">
@@ -47,13 +48,27 @@
         <input type="text" class="an_Frame" name="address" value="" placeholder="  주소"><br>
         <input type="text" class="an_Frame" name="address" value="" placeholder="  참고사항"><br>
         <input type="text" class="blank" name="blank"><br>
-        <input type="checkbox" name="check">
-        <strong>이용약관</strong> 및 <strong>개인정보</strong> 처리 방침에 동의합니다.<br><br>
-        <div class="bot_3_1">
-        <input class="bot_3"  type="button" onclick="alert('땡')" value="회원가입">
+    -->
+        <div class="test">
+            <input type="text" class="ShortFrame_1" id="sample6_postcode" placeholder="우편번호">
+            <input type="button"class="bot_2" onclick="sample6_execDaumPostcode()" value="우편번호 검색">
         </div>
+            <input type="text" class="an_Frame"id="sample6_address" placeholder="주소"><br>
+            <input type="text" class="an_Frame" id="sample6_detailAddress" placeholder="상세주소"><br>
+            <input type="text" class="blank"id="sample6_extraAddress" placeholder="참고항목"><br>
+
+            <input type="checkbox" name="check">
+            <strong>이용약관</strong> 및 <strong>개인정보</strong> 처리 방침에 동의합니다.<br><br>
+            <div class="bot_3_1">
+            <input class="bot_3"  type="button" onclick="alert('땡')" value="회원가입">
+        
     </form>
     </div>
+
+
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="../js/postNum-search.js"></script>
+    <script language="javascript" type="text/javascript"></script>
 </body>
 
 </html>
