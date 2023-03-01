@@ -19,14 +19,11 @@ body, html{
     width: 65vw;
     height: 65vh;
     border: 10px solid rgb(244, 194, 194);
-    
 }
 
 .map{
-    
     display: flex;
     justify-content: center;
-    
 }
 
 .message{
@@ -34,7 +31,6 @@ body, html{
     right: 5vw;
     display: flex;
     justify-content: right;
-   
 }
 
 .message input{
@@ -42,7 +38,6 @@ body, html{
     background-color: #c1c0c0;
     height: 3.5vh;
     width: 12vw;
-
 }
 
 .message img{

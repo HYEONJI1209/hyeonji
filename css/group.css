@@ -17,7 +17,6 @@
     background-color: white;
     margin-right: 24px;
     border-radius: 8px;
-
 }
 
 /* .screen div{
@@ -41,6 +40,7 @@
     height: 50px;
     margin-right: 50px;
 } */
+
 .word {
     display: flex;
     margin-right: 15px;
