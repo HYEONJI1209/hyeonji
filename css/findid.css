@@ -1,25 +1,34 @@
 .topic-logo {
     display: flex;
     justify-content: center;
-    padding-right: 8px;
+    align-items: center;
+    margin-top: 140px;
 }
 
-#topic {
-    position: relative;
-    top: 3.2rem;
-}
-
-.logo {
+.topic-logoName {
+    margin-top: -20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.ShortFrame {
-    width: 28vw;
-    height: 7vh;
-    background-color: #EFEEEE;
+
+.findidFrame{
+    margin-top: 5px;
+    width: 400px;
+    height: 45px;
+    background-color: #FFF;
     border-radius: 3px;
-    border: 1px solid #EFEEEE;
+    border: 1px solid #BBBBBB;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .login {
@@ -28,41 +37,32 @@
     align-items: center;
 }
 
-.login form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.BTN {
+.findid_btn{
     margin-top: 50px;
-    width: 28vw;
-    height: 8vh;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
     background-color: #E37272;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    border: none;
+}
+  
+.findid_ask {
+    margin-top: 45px;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-}
-
-span {
-    display: flex;
-    margin-top: 47px;
-}
-
-.title {
-    margin-top: 4%;
-    width: 30vw;
-    height: 20vh;
-}
-
-a {
-    text-decoration: none;
+.findid_ask a:link {
     color: black;
-    font-weight: bold;
+}
+
+.findid_ask a:visited {
+    color: black;
+}
+
+.findid_ask a {
+    text-decoration: none;
 }

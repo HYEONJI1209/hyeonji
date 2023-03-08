@@ -1,24 +1,16 @@
-let findpwN = document.getElementById('id');
-let findpwP = document.getElementById('phone');
-let findpwBtn = document.getElementById('BTN');
-let resultArea=document.getElementById("result-area");
-
-
-findpwBtn.addEventListener('click',color);
-findpwN.addEventListener("focus",replay);
-findpwP.addEventListener("focus",replay);
-
-function color() {
-    if((findpwN.value.length>0 && findpwN.value.length<5) && findpwP.value.length>=11){
-        findpwBtn.disabled = false;
-    }else{
-        findpwBtn.disabled = true;
-        resultArea.textContent="다시입력해주세요"
-        
+const findpwCheck=()=>{
+    //아이디가 빈칸이라면 경고 출력
+    if(findpwForm.findpw_id.value==""){
+        alert("아이디을 입력하세요");
+        findpwForm.findpw_id.focus(); //포커스 커서 옮기기
+        return false; //정상종료
     }
+    //비밀번호가 빈칸이라면 경고 출력
+    if(findpwForm.findpw_phone.value==""){
+        alert("번호를 입력하세요");
+        findpwForm.findpw_phone.focus(); //포커스 커서 옮기기
+        return false; //정상종료
+    }
+    location.href="login.html";  //둘다 입력되면 Index.html로
 }
 
-function replay(){
-    findpwBtn.disabled=false;
-    resultArea.textContent=""
-}
