@@ -1,48 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인</title>
     <link rel="stylesheet" href="../css/login.css">
-</head>
 
+</head>
 <body>
     <div>
-        <div class="topic-logo">
-            <div>
-                <img src="../images/icons8-학교-100 17.png">
-            </div><br />
-            <div id="topic">
-                <h1 style="font-size: 50px;">Schooler</h1>
-            </div>
-        </div>
-        <div class="topic-logoName">
-            <p>로그인</p>
-        </div>
+    <div class="topic-logo">
+        <div>
+           <img src="../images/icons8-학교-100 17.png">
+        </div><br/>
+        <div id="topic">
+            <h1 style="font-size: 50px;">Schooler</h1>
+        </div>   
     </div>
-
+    <div class="topic-logoName">
+        <p>로그인</p>
+    </div>
+</div>
     <div class="login" onload="logForm.id.focus()">
-
+        
         <form name="logForm" method="post">
-            <span><b>*아이디</b></span>
+            <span><b>*아이디</b></span>    
             <input type="text" id="id" class="loginFrame" name="id" placeholder="아이디" style="margin-bottom: 15px;">
-            <div class="input password">
-                <label for="password" class="label password">*비밀번호</label><br />
-                <input type="password" id="pw" name="pw" class="loginFrame" placeholder="비밀번호를 입력해주세요.">
-                <div class="eyes">
-                    <i class="fas fa-eye"></i>
-                </div>
-            </div>
+            <span><b>*비밀번호</b></span>
+            <input type="password" id="pw" class="loginFrame" name="pw" placeholder="비밀번호">
         </form>
-        <div id=result-area></div>
+
         <button id="BTN" class="login_btn" onclick="loginCheck()">로그인</button>
         <span class="login_ask1"><b>계정이 없으신가요?&nbsp;<a href="res.html">회원가입</a></b></span>
         <span class="login_ask2"><a href="findid.html">아이디 찾기</a>/<a href="findpassword.html">비밀번호 찾기</a></span>
     </div>
     <script src="../js/login.js"></script>
+    
 </body>
-
 </html>

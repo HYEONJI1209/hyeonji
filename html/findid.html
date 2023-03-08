@@ -11,29 +11,32 @@
 </head>
 
 <body>
-
-    <div class="topic-logo">
-        <div>
-            <img src="../images/icons8-학교-100 17.png">
+    <div>
+        <div class="topic-logo">
+            <div>
+               <img src="../images/icons8-학교-100 17.png">
+            </div><br/>
+            <div id="topic">
+                <h1 style="font-size: 50px;">Schooler</h1>
+            </div>   
         </div>
-        <div id="topic">
-            <h1>아이디 찾기</h1>
+        <div class="topic-logoName">
+            <p>아이디 찾기</p>
         </div>
     </div>
-
-    <div class="login">
-        <form>
-            <span><b>*이름</b></span>
-            <input type="text" id="name" class="ShortFrame" name="name" placeholder="이름">
-        </form>
-
-        <form>
+    <div class="login" onload="findidForm.findid_name.focus()">
+        
+        <form name="findidForm" method="post">
+            <span><b>*이름</b></span>    
+            <input type="text" id="findid_name" class="findidFrame" name="name" placeholder="이름" style="margin-bottom: 15px;">
             <span><b>*휴대폰 번호</b></span>
-            <input type="text" id="phone" class="ShortFrame" name="phone" placeholder="010********">
+            <input type="text" id="findid_phone" class="findidFrame" name="phone" placeholder="010********">
+            
         </form>
 
-        <input type="button" id="button" value="아이디 찾기" class="BTN" style="border:none">
-        <span><a href="findpass">비밀번호 찾기</a></span>
+        <button id="BTN" class="findid_btn" onclick="findidCheck()">아이디 찾기</button>
+        <span class="findid_ask"><b><a href="findpassword.html">비밀번호 찾기</a></b></span>
+        
     </div>
 
     <script src="../js/findid.js"></script>
