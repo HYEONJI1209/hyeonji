@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholler</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/Index.css">
+    <link rel="stylesheet" href="../css/Navbar.css">
+    <link rel="stylesheet" href="../css/writing.css">
+</head>
+
+<body>
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav__brand">
+                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                    <a href="#" class="nav__logo">Menu</a>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link active">
+                        <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">홈으로 가기</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">프로필</span>
+                    </a>
+
+                    <a href="group.html" class="nav__link collapse">
+                        <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">메신저</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="calendar-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">시간표</span>
+                    </a>
+
+                    <a href="board.html" class="nav__link collapse">
+                        <ion-icon name="clipboard-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">게시판</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="pizza-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">학식</span>
+                    </a>
+                </div>
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav_name">로그아웃</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <!--logo-->
+    <div class="Main-logo">
+        <div>
+            <img src="../images/icons8-학교-100 17.png">
+        </div>
+        <div id="Main">
+            <h1>학교게시판</h1>
+        </div>
+    </div>
+
+   
+    <div class="frame">
+   <section> 
+    <button id="word-button">글등록</button>
+    <textarea class="topic" placeholder="제목"></textarea>
+
+    <hr>
+   
+    <textarea class="content" type="text" placeholder="내용을 입력해주세요"></textarea>
+    
+
+    <p>
+        1. 공통 이용 규칙<br>
+        (1) 기본적인 예의에 어긋난 행위 금지- 욕설, 비방, 비하, 사칭, 반말 및 기타 무례한 행위 단 서로가 친분 등으로 용인된 반말은 예외이나 <br>
+        가급적 존칭을 사용- 특정 기업, 제품, 배포판, 우리 커뮤니티 와 다른 커뮤니티 대한 비방 이나 비난- 무의미한 글 또는 무성의 글 작성- 출처가 <br>
+        누락된 외부 사이트의 컨텐츠 , 또는 외부 링크를 클릭 해서 이동 해야 만 내용을 알 수 있는 게시글<br><br>
+
+        (2) 커뮤니티의 존립 목적에 반하는 활동 금지- 허위자료, 찌라시 등의 잘못된 루머 유포- 커뮤니티에서 허가받지 않은 개인, 기업, 단체, SNS 등에 관련된 광고나<br> 
+        홍보 (접속 유도 포함)- 답변이 달린 질문글의 삭제 금지 IP 나 ID ,호스트 명 이나 개인정보가 입력 되었을 경우 내용을 변경<br><br>
+
+        (3) 아이디 도용 금지- 아이디 도용 여부 판별을 위해 운영진은 필요시 해당 회원 정보 공개 요구 가능<br><br>
+
+        (4) 닉네임의 사용 제한- 보편적으로 부적절한 단어를 포함한 경우 하거나 사회에 반하는 단어등이 포함된 경우- 특정 커뮤니티 운영진 또는 업체 관계자를<br>
+        사칭한 경우- 특정 정당이나 정치색을 가지고 있는 단어 이거나 공인 등을 비하 하는 단어가 포함된 경우<br><br>
+
+        (5) 커뮤니티내 게시글 및 답글(댓글)은 자유 공유가 원칙 입니다.- 특정 HTML 이나 Java Script 등으로 복사를 제한 하는 행동 등은 금지- PDF 나 <br>
+        이미지 형태는 금지, 가급적 텍스트로 작성<br><br>
+
+        (6) 불편신고- 커뮤니티 이용에 관한 사이트 기능이나 기타 불편 사항은 메일이나 커뮤니티내 메세지로 작성<br><br>
+
+        (7) 개선 및 건의 등의 의견- 운영진 이메일, 커뮤니티 내 개인 메세지 작성 또는 <br>
+        자유게시판에 게시- 해당 메세지도 운영진이 판단하에 비밀글이나 비밀 메세지 형태로 전환 가능
+    </p>
+</section>
+</div>
+
+
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- JS -->
+    <script src="../js/Navbar.js"></script>
+</body>
+
+</html>
