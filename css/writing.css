@@ -1,0 +1,60 @@
+body{
+    margin-left: 15vw;
+    margin-right:15vw;
+      
+}
+.frame{
+    display: flex;
+    justify-content: center;
+    margin-left:12%;
+    width: 750px;
+    
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    
+}
+textarea:focus{
+    outline: none;
+}
+hr{
+    color: black;
+    height: 2px;
+}
+
+.topic{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    font-size: 30px;
+    width: 750px;
+    height: 40px;
+    resize: none;
+
+}
+
+.content{
+    border:0.5px solid rgb(241, 237, 237);
+    font-size: 25px;
+    width: 750px;
+    height: 400px;
+    resize: none;
+
+}
+
+#word-button{
+    width: 71px;
+    height: 30px;
+    margin-left: 92.5vh;
+    
+}
+p{
+    width: auto;
+    color: rgb(119, 119, 119);
+}
+
