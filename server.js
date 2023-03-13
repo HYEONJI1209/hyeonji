@@ -12,35 +12,35 @@ app.use(express.static(__dirname+'/public'));
 app.get('/', (req, res)=>{  //app.get 함수를 통해 가져옴
     res.sendFile(__dirname + '/public/html/initial-srceen.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
 });
-app.get('/index', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/Index.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/index', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/Index.html');
 });
-app.get('/board', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/board.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/board', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/board.html');
 });
-app.get('/findid', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/findid.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/findid', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/findid.html');
 });
-app.get('/findpw', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/findpassword.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/findpw', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/findpassword.html');
 });
-app.get('/groupNo', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/group-notice.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/groupNo', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/group-notice.html');
 });
-app.get('/group', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/group.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/group', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/group.html');
 });
-app.get('/login', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/login.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/login', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/login.html');
 });
-app.get('/map', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/map.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/map', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/map.html');
 });
-app.get('/register', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/res.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/register', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/res.html');
 });
-app.get('/table', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/table.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+app.get('/table', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/table.html');
 });
 //server start
 app.listen(app.get('port'), ()=>{
