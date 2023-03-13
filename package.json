@@ -1,0 +1,25 @@
+{
+  "name": "project-friends",
+  "version": "1.0.0",
+  "description": "project-friend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HYEONJI1209/project-friends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HYEONJI1209/project-friends/issues"
+  },
+  "homepage": "https://github.com/HYEONJI1209/project-friends#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
