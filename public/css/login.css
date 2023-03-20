@@ -38,15 +38,17 @@
 }
 
 .login_btn {
+    margin-bottom: 25px;
     margin-top: 50px;
     width: 250px;
     height: 40px;
     border-radius: 10px;
-    background-color: #E37272;
+    background-color: rgba(79, 109, 217, 1);
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     border: none;
+    color:white;
 }
 
 .login_ask1 {

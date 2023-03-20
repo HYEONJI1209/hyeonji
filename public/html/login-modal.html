@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login-modal.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <!-- 모달 버튼 -->
+    <button id="modal-btn">모달 열기</button>
+
+    <!-- 모달 창 -->
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <!-- <span class="close">&times;</span> -->
+            <div class= topic-logo2>
+            <p>Schooler 로그인</p>
+            <button class="signup-button">sign up</button>
+            </div>
+            
+            
+            <hr>
+            <div class="login" onload="logForm.id.focus()">
+            
+                <form name="logForm" method="post">
+                    <span>아이디</span>    
+                    <input type="text" id="id" class="loginFrame" name="id" placeholder="아이디" style="margin-bottom: 15px;">
+                    <span>비밀번호</span>
+                    <input type="password" id="pw" class="loginFrame" name="pw" placeholder="비밀번호">
+                </form>
+    
+                <button id="BTN" class="login_btn" onclick="loginCheck()">로그인</button>
+                <span class="login_ask2"><a href="findid.html">아이디 찾기</a>/<a href="findpassword.html">비밀번호 찾기</a></span>
+            </div>
+            
+        </div>
+ 
+            
+    </div>
+
+
+
+    <script src="../js/modal.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

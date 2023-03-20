@@ -1,0 +1,29 @@
+ /* 모달 내용 스타일 */
+ .modal-content-res {
+    
+    background-color: #fefefe;
+    margin: 15% auto; /* 중앙 정렬 */
+   
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 684px;
+    height: 1200px;
+  }
+  
+  .modal-content-res hr{
+    color: black;
+    margin-bottom: 44px;
+    border: 1px solid black;
+    width: 585px;
+  }
+  .modal-content-res p{
+    margin-top:16px;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 28px;
+    font-weight: bold;
+    padding-bottom: 5px ;
+    line-height: 20px;
+    
+
+  }
