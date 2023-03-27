@@ -3,7 +3,7 @@
 .modal {
     display: none; /* 초기에는 숨겨둔다 */
     position: fixed; /* 화면 상에 고정 */
-    z-index: 1; /* 다른 요소 위에 위치 */
+    z-index: 3; /* 다른 요소 위에 위치 */
     left: 0;
     top: 0;
     width: 100%;
