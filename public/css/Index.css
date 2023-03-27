@@ -110,7 +110,7 @@
     margin-top: 71px;
 }
 
-/*학교공지*/
+/*
 .Noti {
     width: 564px;
     height: 278px;
@@ -151,18 +151,56 @@
     height: 391px;
     border-radius: 25px;
 }
+/* * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+} */
 
-/*YouTube???*/
-.YouTube-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 47px;
-    margin-bottom: 100px;
+.tab {
+    top: 0;
+    left: 0;
+    width: 560px;
 }
 
-.YouTube {
-    width: 875px;
-    height: 390px;
-    background-color: #ececec;
+.flex {
+    display: flex;
+    height: 50px;
+    margin-top: 70px;
+}
+
+.panel {
+    width: 140px;
+    border-radius: 5px;
+    height: 40px;
+    display: block;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border: 1px solid black;
+}
+
+.active {
+    background-color: white !important;
+    color: black !important;
+}
+
+.content {
+    display: none;
+    border: 1px solid black;
+    width: 560px;
+    height: 280px;
+}
+
+.on {
+    display: flex !important;
+    
+}
+.tab_map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
