@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <title>Scholler</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/Index.css">
+    
     <link rel="stylesheet" href="../css/login-modal.css">
     <link rel="stylesheet" href="../css/login.css">
 </head>
+
 <body>
-    <!-- 모달 버튼 -->
-    <button id="modal-btn">모달 열기</button>
+  
+    <!--logo-->
+    <div class="Main-logo">
+        <div>
+            <img src="../images/icons8-학교-100 17.png">
+        </div>
+        <div id="Main">
+            <h1>Schooler</h1>
+        </div>
+    </div>
 
-    <!-- 모달 창 -->
+     <!--로그인 모달 창 -->
 
-    <div id="modal" class="modal">
+     <div id="modal" class="modal">
         <div class="modal-content">
             <!-- <span class="close">&times;</span> -->
             <div class= topic-logo2>
@@ -41,10 +56,92 @@
  
             
     </div>
-
-
-
+    <!--Main start-->
+    <div class="notification">
+        <div class="Depart">
+            <b style="color:white">컴퓨터공학과</b>
+            <ul class="Depart_Note_id">
+                <li class="Depart_Note_ti">장학금관련</li>
+                <li class="Depart_Note_not">장학금 관련 미리보기</li>
+            </ul>
+            <ul class="Depart_Note">
+                <li class="Depart_Note_ti">장학금관련</li>
+                <li class="Depart_Note_not">장학금 관련 미리보기</li>
+            </ul>
+            <ul class="Depart_Note">
+                <li class="Depart_Note_ti">장학금관련</li>
+                <li class="Depart_Note_not">장학금 관련 미리보기</li>
+            </ul>
+            <ul class="Depart_Note">
+                <li class="Depart_Note_ti">장학금관련</li>
+                <li class="Depart_Note_not">장학금 관련 미리보기</li>
+            </ul>
+            <ul class="Depart_Note">
+                <li class="Depart_Note_ti">장학금관련</li>
+                <li class="Depart_Note_not">장학금 관련 미리보기</li>
+            </ul>
+        </div>
+        <div class="schedule">
+            <b>2023-1학기</b>
+            <a href="table.html"><button class="To_scheluler">시간표</button></a>
+            <ul class="schedule_Note_id">
+                <li class="schedule_Note_ti">이동통신</li>
+                <li class="schedule_Note_not">예술-408</li>
+            </ul>
+            <ul class="schedule_Note">
+                <li class="schedule_Note_ti">웹 데이터베이스 실습</li>
+                <li class="schedule_Note_not">예술-601</li>
+            </ul>
+            <ul class="schedule_Note">
+                <li class="schedule_Note_ti">컴퓨터시스템</li>
+                <li class="schedule_Note_not">예술-501</li>
+            </ul>
+            <ul class="schedule_Note">
+                <li class="schedule_Note_ti">컴퓨터 운영시스템</li>
+                <li class="schedule_Note_not">예술-601</li>
+            </ul>
+            <ul class="schedule_Note">
+                <li class="schedule_Note_ti">소프트웨어공학</li>
+                <li class="schedule_Note_not">민주-107</li>
+            </ul>
+        </div>
+    </div>
+    <div class="tab_map">
+        <div class="tab">
+            <div class="flex">
+                <a href="#" class="panel active">학사공지</a>
+                <a href="#" class="panel">장학공지</a>
+                <a href="#" class="panel">입학공지</a>
+                <a href="#" class="panel">공 지</a>
+            </div>
+            <div>
+                <div id="contents1" class="content on">
+                    ㅁㄴㅇㅁㄴㅇ23
+                </div>
+                <div id="contents2" class="content ">
+                    ㅁㄴㅇㅁㄴㅇ32
+                </div>
+                <div id="contents3" class="content">
+                    ㅁㄴㅇㅁㄴㅇ42
+                </div>
+                <div id="contents4" class="content">
+                    ㅁㄴㅇㅁㄴㅇ12
+                </div>
+            </div>
+        </div>
+        
+        <div class="main_map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.8222822347543!2d127.92774020394435!3d37.370381799566914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356374e776482d4b%3A0x6feb1bc9c1500092!2z7IOB7KeA64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1676899531067!5m2!1sko!2skr"></iframe>
+        </div>
+    </div>
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- JS -->
+   
+    <script src="../js/index.js"></script>
     <script src="../js/modal.js"></script>
     <script src="../js/login.js"></script>
 </body>
+
 </html>

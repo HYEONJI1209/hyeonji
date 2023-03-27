@@ -4,17 +4,17 @@
     display: flex;
 }
 .res-topic{
-    margin-top: 40px;
+    margin-top: 40px; 
     width: 224px; 
-    height: 86px;
+    height: 86px; 
     margin-bottom: 30px;
 
 }
 
 .all {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 span {

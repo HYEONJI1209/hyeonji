@@ -1,4 +1,7 @@
- /* 모달 내용 스타일 */
+.modal{
+  z-index: 4;
+}
+/* 모달 내용 스타일 */
  .modal-content-res {
     
     background-color: #fefefe;
@@ -27,3 +30,5 @@
     
 
   }
+
+  
