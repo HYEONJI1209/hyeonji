@@ -10,10 +10,7 @@ app.use(express.static(__dirname+'/public'));
 
 //router
 app.get('/', (req, res)=>{  //app.get 함수를 통해 가져옴
-    res.sendFile(__dirname + '/public/html/initial-srceen.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
-});
-app.get('/index', (req, res)=>{
-    res.sendFile(__dirname + '/public/html/Index.html');
+    res.sendFile(__dirname + '/public/html/Index.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
 });
 app.get('/board', (req, res)=>{
     res.sendFile(__dirname + '/public/html/board.html');
@@ -41,6 +38,9 @@ app.get('/register', (req, res)=>{
 });
 app.get('/table', (req, res)=>{
     res.sendFile(__dirname + '/public/html/table.html');
+});
+app.get('/calender', (req, res)=>{
+    res.sendFile(__dirname + '/public/html/calender.html');
 });
 app.get('/writing', (req, res)=>{  //app.get 함수를 통해 가져옴
     res.sendFile(__dirname + '/public/html/writing.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
