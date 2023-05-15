@@ -30,78 +30,7 @@
     </div>
 
     
-    <!--회원가입 모달 -->
-    <div id="modal2" class="modal">
-        <div class="modal-content-res">
-            <!-- <span class="close">&times;</span> -->
-            <div class= topic-logo2>
-            <p>회원가입 하시겠습니까?</p>
-            <button class="signup-button">Log in</button>
-            </div>
-            
-            
-            <hr>
-          
-            <div class="all" onload="signup.id.focus()">
-                <form name ="signup" method ="post">
-                    <span>* 아이디</span>
-                    <div class="test">
-                    <input type="text" id="id" class="ShortFrame" name="id" placeholder="  아이디 필수">
-                    <input class="bot_1" type="button" onclick="alert('사용 가능한 아이디 입니다!')" value="중복 확인"> <br>
-                    <small class="Word">6~12자의 영문자,숫자 사용 가능</small></div>
-            
-                    <span>* 비밀번호</span>
-                    <div class="test">
-                    <input type="password" id="pw"class="Frame" name="ps" placeholder="  비밀번호 필수"><br>
-                    <small class="Word">10~20자 영문자, 숫자, 특수 문자 (!@#$%^&*?) 포함.</small>
-                    </div>
-                    <span>* 비밀번호 확인</span><br>
-                    <input type="password" id="checkpw" class="an_Frame" name="rps" placeholder="  비밀번호 확인 필수"><br>
-            
-                    <span>* 이름</span><br>
-                    <input type="text"  id="name" class="an_Frame" name="name" value="" placeholder="  성명 필수"><br>
-            
-                    <span>* 이메일</span><br>
-                    <input type="email" id="email"class="an_Frame" name="email" value="" placeholder="  이메일 필수"><br>
-            
-                    <span>* 학교인증</span><br>
-                    <input type="text" class="an_Frame" id="school" name="school" value="" placeholder="  학교인증 필수"><br>
-            
-                    <span>* 생년월일</span><br>
-                    <input type="text" class="an_Frame" id ="birth" name="birth" value="" placeholder="  -를 빼고 입력해주세요"><br>
-            
-                    <span>주소</span><br>
-                    <!--
-                    <div class="test">
-                    <input type="text" class="ShortFrame_1" name="address" value="" placeholder="  우편번호">
-                    <input class="bot_2" type="button" onclick="alert('')" value="우편번호 검색">
-                    </div>
-                    <input type="text" class="an_Frame" name="address" value="" placeholder="  주소"><br>
-                    <input type="text" class="an_Frame" name="address" value="" placeholder="  참고사항"><br>
-                    <input type="text" class="blank" name="blank"><br>
-                    -->
-                    <div class="test">
-                        <input type="text" class="ShortFrame_1" id="sample6_postcode" placeholder="우편번호">
-                        <input type="button"class="bot_2" onclick="sample6_execDaumPostcode()" value="우편번호 검색">
-                    </div>
-                        <input type="text" class="an_Frame"id="sample6_address" placeholder="주소"><br>
-                        <input type="text" class="an_Frame" id="sample6_detailAddress" placeholder="상세주소"><br>
-                        <input type="text" class="blank"id="sample6_extraAddress" placeholder="참고항목"><br>
-                    
-                        <input type="checkbox" name="check">
-                        <strong>이용약관</strong> 및 <strong>개인정보</strong> 처리 방침에 동의합니다.<br><br>
-                        <div class="bot_3_1">
-                        <button id="BTN" class="bot_3" onclick="newsignup()">회원가입</button>
-                </form>
-            </div>
-        
-        
-          
-            
-        </div>
- 
-            
-    </div>
+    
     <!--Main start-->
     <div class="notification">
         <div class="Depart">
@@ -180,16 +109,95 @@
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.8222822347543!2d127.92774020394435!3d37.370381799566914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356374e776482d4b%3A0x6feb1bc9c1500092!2z7IOB7KeA64yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1676899531067!5m2!1sko!2skr"></iframe>
         </div>
+        <!--회원가입 모달 -->
+    <div id="modal" class="modal">
+        <div class="modal-content-res">
+            <!-- <span class="close">&times;</span> -->
+            <div class= topic-logo2>
+            <p>회원가입 하시겠습니까?</p>
+            <button class="signup-button">Log in</button>
+            </div>
+            
+            
+            <hr>
+          
+            <div class="all" onload="signup.id.focus()">
+                <form name ="signup" method ="post">
+                    
+                    <span>* 아이디</span>
+                    <div class="test">
+                    <input type="text" id="id" class="ShortFrame" name="id" placeholder="  아이디 필수">
+                    <input class="bot_1" type="button"  value="중복 확인">  <br>
+                    <small class="Word">6~12자의 영문자,숫자 사용 가능</small></div>
+                    
+                    <section>
+                        <span>* 비밀번호</span> 
+                        <p id="success-area" class="success-area"></p>
+                        <p id="fail-area" class="fail-area"></p>
+                    </section>    
+                    
+                    <div class="test">
+                    <input type="password" id="pw"class="Frame" name="ps" placeholder="  비밀번호 필수"><br>
+                    <small class="Word">10~20자 영문자, 숫자, 특수 문자 (!@#$%^&*?) 포함.</small>
+                    </div>
+                    <span>* 비밀번호 확인</span><br>
+                    <input type="password" id="checkpw" class="an_Frame" name="rps" placeholder="  비밀번호 확인 필수"><br>
+            
+                    <span>* 이름</span><br>
+                    <input type="text"  id="name" class="an_Frame" name="name" value="" placeholder="  성명 필수"><br>
+            
+                    <span>* 이메일</span><br>
+                    <input type="email" id="email"class="an_Frame" name="email" value="" placeholder="  이메일 필수"><br>
+            
+                    <span>* 학교인증</span><br>
+                    <input type="text" class="an_Frame" id="school" name="school" value="" placeholder="  학교인증 필수"><br>
+            
+                    <span>* 생년월일</span><br>
+                    <input type="text" class="an_Frame" id ="birth" name="birth" value="" placeholder="  -를 빼고 입력해주세요"><br>
+            
+                    <span>주소</span><br>
+                    <!--
+                    <div class="test">
+                    <input type="text" class="ShortFrame_1" name="address" value="" placeholder="  우편번호">
+                    <input class="bot_2" type="button" onclick="alert('')" value="우편번호 검색">
+                    </div>
+                    <input type="text" class="an_Frame" name="address" value="" placeholder="  주소"><br>
+                    <input type="text" class="an_Frame" name="address" value="" placeholder="  참고사항"><br>
+                    <input type="text" class="blank" name="blank"><br>
+                    -->
+                    <div class="test">
+                        <input type="text" class="ShortFrame_1" id="sample6_postcode" placeholder="우편번호">
+                        <input type="button"class="bot_2" onclick="sample6_execDaumPostcode()" value="우편번호 검색">
+                    </div>
+                        <input type="text" class="an_Frame"id="sample6_address" placeholder="주소"><br>
+                        <input type="text" class="an_Frame" id="sample6_detailAddress" placeholder="상세주소"><br>
+                        <input type="text" class="blank"id="sample6_extraAddress" placeholder="참고항목"><br>
+                    
+                        <input type="checkbox" name="check">
+                        <strong>이용약관</strong> 및 <strong>개인정보</strong> 처리 방침에 동의합니다.<br><br>
+                        <div class="bot_3_1">
+                        <button id="BTN" class="bot_3" onclick="newsignup()">회원가입</button>
+                </form>
+            </div>
+        
+        
+          
+            
+        </div>
+ 
+            
+    </div>
     </div>
     <!-- IONICONS -->
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
     <!-- JS -->
    
     <script src="../js/index.js"></script>
-    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-    <script src="../js/postNum-search.js"></script>
     <script src="../js/res.js"></script>
     <script src="../js/modal.js"></script>
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="../js/postNum-search.js"></script>
+    
     
 </body>
 
