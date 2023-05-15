@@ -48,6 +48,13 @@ app.get('/writing', (req, res)=>{  //app.get 함수를 통해 가져옴
 app.get('/group', (req, res)=>{  //app.get 함수를 통해 가져옴
     res.sendFile(__dirname + '/public/html/group.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
 });
+app.get('/login-modal', (req, res)=>{  //app.get 함수를 통해 가져옴
+    res.sendFile(__dirname + '/public/html/group.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+});
+
+app.get('/register-modal', (req, res)=>{  //app.get 함수를 통해 가져옴
+    res.sendFile(__dirname + '/public/html/group.html');   //fs모듈에서의 .readFile() 대신 sendFile() 사용 가능
+});
 //server start
 app.listen(app.get('port'), ()=>{
     console.log(app.get('port'),'번 포트에서 서버 실행중..')

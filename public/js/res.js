@@ -1,7 +1,13 @@
+let successArea=document.getElementById("success-area")
+let failArea=document.getElementById("fail-area")
+
+
+
 const newsignup = () => {
-    if(signup.id.value == ""){
-        alert("아이디를 입력하세요.");
+    if(signup.id.value<10 ||signup.id>20){
         signup.id.focus();
+        failArea.textContent="글자 수를 10이상 20이하로 해주세요"
+        
         return false;
     }
     if(signup.pw.value == ""){
